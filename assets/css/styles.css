@@ -107,7 +107,7 @@ a {
 /* Hero */
 
 .hero {
-    padding-top: 56px;
+    padding: 56px 0 65px;
     background: #fffcf4;
 }
 
@@ -115,12 +115,14 @@ a {
     display: flex;
 }
 
+/* Hero Left */
 .hero .media-block {
     position: relative;
     width: 48%;
 }
 
 .hero .media-block .img {
+    display: block;
     width: 470px;
     height: 685px;
     object-fit: cover;
@@ -130,7 +132,7 @@ a {
 .hero-summary {
     position: absolute;
     width: 270px;
-    padding: 28px 24px;
+    padding: 24px;
     right: 0;
     bottom: 48px;
     background: #ffffff;
@@ -140,6 +142,7 @@ a {
 
 .hero-summary .item {
     display: flex;
+    align-items: center;
 }
 .hero-summary .item + .item {
     margin-top: 22px;
@@ -165,7 +168,7 @@ a {
     margin-left: 16px;
 }
 
-.hero-summary .labal {
+.hero-summary .label {
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 186%;
